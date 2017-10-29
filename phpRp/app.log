@@ -9232,3 +9232,313 @@ Input:
 {"url":"/phpRp/","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
 ----------------------------------------------------------
 
+==============================================================================
+10-29 20:54:49  DEBUG Request: Array
+(
+    [provider] => Publicity port
+    [identifier] => 
+    [request_method] => GET
+    [request_option] => Custom ID Token Claims
+    [response_type] => code
+    [id_token] => 
+    [scope_openid] => on
+    [scope_profile] => on
+    [scope_email] => on
+    [scope_address] => on
+    [scope_phone] => on
+    [response_mode] => 
+    [prompt_login] => on
+    [page] => popup
+    [bearer] => bearer
+    [token_endpoint_auth_method] => client_secret_post
+    [token_endpoint_auth_signing_alg] => 
+    [request_object_signing_alg] => 
+    [request_object_encrypted_response_alg] => 
+    [request_object_encrypted_response_enc] => 
+    [default_max_age] => 1
+    [require_auth_time] => 
+    [default_acr_values] => 
+    [login_hint] => 
+    [subject_type] => public
+    [userinfo_signed_response_alg] => 
+    [userinfo_encrypted_response_alg] => 
+    [userinfo_encrypted_response_enc] => 
+    [id_token_signed_response_alg] => 
+    [id_token_encrypted_response_alg] => 
+    [id_token_encrypted_response_enc] => 
+    [submit] => Connect
+)
+
+Input: provider=Publicity+port&identifier=&request_method=GET&request_option=Custom+ID+Token+Claims&response_type=code&id_token=&scope_openid=on&scope_profile=on&scope_email=on&scope_address=on&scope_phone=on&response_mode=&prompt_login=on&page=popup&bearer=bearer&token_endpoint_auth_method=client_secret_post&token_endpoint_auth_signing_alg=&request_object_signing_alg=&request_object_encrypted_response_alg=&request_object_encrypted_response_enc=&default_max_age=1&require_auth_time=&default_acr_values=&login_hint=&subject_type=public&userinfo_signed_response_alg=&userinfo_encrypted_response_alg=&userinfo_encrypted_response_enc=&id_token_signed_response_alg=&id_token_encrypted_response_alg=&id_token_encrypted_response_enc=&submit=Connect 
+{"url":"/phpRp/index.php/start","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpRp/"} []
+----------------------------------------------------------
+
+10-29 20:54:49  DEBUG handle_start : Array
+(
+    [provider] => Publicity port
+    [identifier] => 
+    [request_method] => GET
+    [request_option] => Custom ID Token Claims
+    [response_type] => code
+    [id_token] => 
+    [scope_openid] => on
+    [scope_profile] => on
+    [scope_email] => on
+    [scope_address] => on
+    [scope_phone] => on
+    [response_mode] => 
+    [prompt_login] => on
+    [page] => popup
+    [bearer] => bearer
+    [token_endpoint_auth_method] => client_secret_post
+    [token_endpoint_auth_signing_alg] => 
+    [request_object_signing_alg] => 
+    [request_object_encrypted_response_alg] => 
+    [request_object_encrypted_response_enc] => 
+    [default_max_age] => 1
+    [require_auth_time] => 
+    [default_acr_values] => 
+    [login_hint] => 
+    [subject_type] => public
+    [userinfo_signed_response_alg] => 
+    [userinfo_encrypted_response_alg] => 
+    [userinfo_encrypted_response_enc] => 
+    [id_token_signed_response_alg] => 
+    [id_token_encrypted_response_alg] => 
+    [id_token_encrypted_response_enc] => 
+    [submit] => Connect
+)
+
+
+10-29 20:54:49  DEBUG final provider info Array
+(
+    [id] => 1
+    [name] => Publicity port
+    [url] => 1
+    [issuer] => 
+    [client_id] => client_id_1
+    [client_secret] => client_secret_1
+    [client_id_issued_at] => 1
+    [client_secret_expires_at] => 10282099
+    [registration_access_token] => at_1
+    [registration_client_uri] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [authorization_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [token_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [userinfo_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [check_id_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [check_session_iframe] => 
+    [end_session_endpoint] => 
+    [jwks_uri] => http://connect.dev.publicityport.com/phpOp/
+    [jwk_encryption_uri] => 
+    [x509_uri] => 
+    [x509_encryption_uri] => 
+    [registration_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/registration
+    [scopes_supported] => 
+    [response_types_supported] => 
+    [grant_types_supported] => 
+    [acr_values_supported] => 
+    [subject_types_supported] => 
+    [userinfo_signing_alg_values_supported] => 
+    [userinfo_encryption_alg_values_supported] => 
+    [userinfo_encryption_enc_values_supported] => 
+    [id_token_signing_alg_values_supported] => 
+    [id_token_encryption_alg_values_supported] => 
+    [id_token_encryption_enc_values_supported] => 
+    [request_object_signing_alg_values_supported] => 
+    [request_object_encryption_alg_values_supported] => 
+    [request_object_encryption_enc_values_supported] => 
+    [token_endpoint_auth_methods_supported] => 
+    [token_endpoint_auth_signing_alg_values_supported] => 
+    [display_values_supported] => 
+    [claim_types_supported] => 
+    [claims_supported] => 
+    [service_documentation] => 
+    [claims_locales_supported] => 
+    [ui_locales_supported] => 
+    [require_request_uri_registration] => 1
+    [op_policy_uri] => 
+    [op_tos_uri] => 
+    [claims_parameter_supported] => 1
+    [request_parameter_supported] => 1
+    [request_uri_parameter_supported] => 1
+)
+
+
+10-29 20:54:49  DEBUG provider scopes = Array
+(
+    [0] => 
+)
+
+
+10-29 20:54:49  DEBUG diff = Array
+(
+    [0] => 
+)
+
+
+10-29 20:54:49  DEBUG scopes = openid profile email address phone 
+
+10-29 20:54:49  DEBUG code verifier : 5_MDbg96uMqKHYYEwTlA8Y2Aem-2okg4HjBA5kUcU4Q challenge : MTOCW28sM3yq6ssW6CDCQ6f7XoPb8o-GCbsTcMzRw2o method : S256
+
+10-29 20:54:49  DEBUG in ID Token claims
+
+10-29 20:54:49  INFO redirect to http://connect.dev.publicityport.com/phpOp/index.php/login?state=a0d820fc040bd2783a8126cc034c65d9&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=ecc913a3c9b6e91682b86756c2cebeff&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=MTOCW28sM3yq6ssW6CDCQ6f7XoPb8o-GCbsTcMzRw2o&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D
+
+==============================================================================
+10-29 20:55:10  DEBUG Request: [ ]
+Input:  
+{"url":"/phpRp/","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:55:23  DEBUG Request: Array
+(
+    [provider] => Publicity port
+    [identifier] => 
+    [request_method] => GET
+    [request_option] => Custom ID Token Claims
+    [response_type] => code
+    [id_token] => 
+    [scope_openid] => on
+    [scope_profile] => on
+    [scope_email] => on
+    [scope_address] => on
+    [scope_phone] => on
+    [response_mode] => 
+    [prompt_login] => on
+    [page] => popup
+    [bearer] => bearer
+    [token_endpoint_auth_method] => client_secret_post
+    [token_endpoint_auth_signing_alg] => 
+    [request_object_signing_alg] => 
+    [request_object_encrypted_response_alg] => 
+    [request_object_encrypted_response_enc] => 
+    [default_max_age] => 1
+    [require_auth_time] => 
+    [default_acr_values] => 
+    [login_hint] => 
+    [subject_type] => public
+    [userinfo_signed_response_alg] => 
+    [userinfo_encrypted_response_alg] => 
+    [userinfo_encrypted_response_enc] => 
+    [id_token_signed_response_alg] => 
+    [id_token_encrypted_response_alg] => 
+    [id_token_encrypted_response_enc] => 
+    [submit] => Connect
+)
+
+Input: provider=Publicity+port&identifier=&request_method=GET&request_option=Custom+ID+Token+Claims&response_type=code&id_token=&scope_openid=on&scope_profile=on&scope_email=on&scope_address=on&scope_phone=on&response_mode=&prompt_login=on&page=popup&bearer=bearer&token_endpoint_auth_method=client_secret_post&token_endpoint_auth_signing_alg=&request_object_signing_alg=&request_object_encrypted_response_alg=&request_object_encrypted_response_enc=&default_max_age=1&require_auth_time=&default_acr_values=&login_hint=&subject_type=public&userinfo_signed_response_alg=&userinfo_encrypted_response_alg=&userinfo_encrypted_response_enc=&id_token_signed_response_alg=&id_token_encrypted_response_alg=&id_token_encrypted_response_enc=&submit=Connect 
+{"url":"/phpRp/index.php/start","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpRp/"} []
+----------------------------------------------------------
+
+10-29 20:55:23  DEBUG handle_start : Array
+(
+    [provider] => Publicity port
+    [identifier] => 
+    [request_method] => GET
+    [request_option] => Custom ID Token Claims
+    [response_type] => code
+    [id_token] => 
+    [scope_openid] => on
+    [scope_profile] => on
+    [scope_email] => on
+    [scope_address] => on
+    [scope_phone] => on
+    [response_mode] => 
+    [prompt_login] => on
+    [page] => popup
+    [bearer] => bearer
+    [token_endpoint_auth_method] => client_secret_post
+    [token_endpoint_auth_signing_alg] => 
+    [request_object_signing_alg] => 
+    [request_object_encrypted_response_alg] => 
+    [request_object_encrypted_response_enc] => 
+    [default_max_age] => 1
+    [require_auth_time] => 
+    [default_acr_values] => 
+    [login_hint] => 
+    [subject_type] => public
+    [userinfo_signed_response_alg] => 
+    [userinfo_encrypted_response_alg] => 
+    [userinfo_encrypted_response_enc] => 
+    [id_token_signed_response_alg] => 
+    [id_token_encrypted_response_alg] => 
+    [id_token_encrypted_response_enc] => 
+    [submit] => Connect
+)
+
+
+10-29 20:55:23  DEBUG final provider info Array
+(
+    [id] => 1
+    [name] => Publicity port
+    [url] => 1
+    [issuer] => 
+    [client_id] => client_id_1
+    [client_secret] => client_secret_1
+    [client_id_issued_at] => 1
+    [client_secret_expires_at] => 10282099
+    [registration_access_token] => at_1
+    [registration_client_uri] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [authorization_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [token_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [userinfo_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [check_id_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/login
+    [check_session_iframe] => 
+    [end_session_endpoint] => 
+    [jwks_uri] => http://connect.dev.publicityport.com/phpOp/
+    [jwk_encryption_uri] => 
+    [x509_uri] => 
+    [x509_encryption_uri] => 
+    [registration_endpoint] => http://connect.dev.publicityport.com/phpOp/index.php/registration
+    [scopes_supported] => 
+    [response_types_supported] => 
+    [grant_types_supported] => 
+    [acr_values_supported] => 
+    [subject_types_supported] => 
+    [userinfo_signing_alg_values_supported] => 
+    [userinfo_encryption_alg_values_supported] => 
+    [userinfo_encryption_enc_values_supported] => 
+    [id_token_signing_alg_values_supported] => 
+    [id_token_encryption_alg_values_supported] => 
+    [id_token_encryption_enc_values_supported] => 
+    [request_object_signing_alg_values_supported] => 
+    [request_object_encryption_alg_values_supported] => 
+    [request_object_encryption_enc_values_supported] => 
+    [token_endpoint_auth_methods_supported] => 
+    [token_endpoint_auth_signing_alg_values_supported] => 
+    [display_values_supported] => 
+    [claim_types_supported] => 
+    [claims_supported] => 
+    [service_documentation] => 
+    [claims_locales_supported] => 
+    [ui_locales_supported] => 
+    [require_request_uri_registration] => 1
+    [op_policy_uri] => 
+    [op_tos_uri] => 
+    [claims_parameter_supported] => 1
+    [request_parameter_supported] => 1
+    [request_uri_parameter_supported] => 1
+)
+
+
+10-29 20:55:23  DEBUG provider scopes = Array
+(
+    [0] => 
+)
+
+
+10-29 20:55:23  DEBUG diff = Array
+(
+    [0] => 
+)
+
+
+10-29 20:55:23  DEBUG scopes = openid profile email address phone 
+
+10-29 20:55:23  DEBUG code verifier : Ahjdk6Z7LTLm4lcIShefUrOAp6DQsgMF0adci3VsJ-s challenge : lRK2yl19tbknd6RWL5Hou5Tk8Y3lZiFaCe0_fGaxtpk method : S256
+
+10-29 20:55:23  DEBUG in ID Token claims
+
+10-29 20:55:23  INFO redirect to http://connect.dev.publicityport.com/phpOp/index.php/login?state=605372c0c1d168b4bf3b950fe9d141bc&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=3a63dceed64b112fa9e6a9a61611138d&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=lRK2yl19tbknd6RWL5Hou5Tk8Y3lZiFaCe0_fGaxtpk&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D
+

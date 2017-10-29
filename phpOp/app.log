@@ -3049,3 +3049,747 @@ Session:Array
 {"url":"/phpOp/index.php/login?state=7cc37fc09b81e0ad364b326d22b977d0&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=6a66c0865b8c96417c2e02abb516a617&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=GTFsNnryGJeZ5I6SqJGn4elt9LtjgbPrGhBBciwP-_U&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpRp/"} []
 ----------------------------------------------------------
 
+==============================================================================
+10-29 20:29:38  DEBUG Request: req[ ]
+Input: 
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509307991
+    [ops] => b277fc82cbf1fa9c2fd3c77d47c0af57
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:29:43  DEBUG Request: Array
+(
+    [username] => alice
+    [password] => wonderland
+    [persist] => on
+)
+
+Input: username=alice&password=wonderland&persist=on
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509307991
+    [ops] => b277fc82cbf1fa9c2fd3c77d47c0af57
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
+10-29 20:29:43  DEBUG Auth_time = 1509308983
+
+10-29 20:29:43  DEBUG session id = gstrnd4gcpqb6eb5l6dh2pem01
+
+10-29 20:29:43  DEBUG prompt = 
+
+==============================================================================
+10-29 20:35:27  DEBUG Request: req[ ]
+Input: 
+Session:sess[ ] 
+{"url":"/phpOp/index.php/registration","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+10-29 20:35:27  ERROR url: error:invalid_client_metadata desc:Unexpected content type uri: state: code:400
+
+10-29 20:35:27  ERROR HTTP/1.0 400 Bad Request
+{"error":"invalid_client_metadata","error_description":"Unexpected content type"}
+
+==============================================================================
+10-29 20:35:32  DEBUG Request: req[ ]
+Input: 
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509308983
+    [ops] => 6b88f0d22beebd5a066a241eb8634be1
+)
+ 
+{"url":"/phpOp/index.php/register","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:36:17  DEBUG Request: req[ ]
+Input: 
+Session:sess[ ] 
+{"url":"/phpOp/index.php/registration","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+10-29 20:36:17  ERROR url: error:invalid_client_metadata desc:Unexpected content type uri: state: code:400
+
+10-29 20:36:17  ERROR HTTP/1.0 400 Bad Request
+{"error":"invalid_client_metadata","error_description":"Unexpected content type"}
+
+==============================================================================
+10-29 20:46:28  DEBUG Request: req[ ]
+Input: 
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509308983
+    [ops] => 6b88f0d22beebd5a066a241eb8634be1
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:46:32  DEBUG Request: Array
+(
+    [username] => alice
+    [password] => wonderland
+    [persist] => on
+)
+
+Input: username=alice&password=wonderland&persist=on
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509308983
+    [ops] => 6b88f0d22beebd5a066a241eb8634be1
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
+10-29 20:46:32  DEBUG Auth_time = 1509309992
+
+10-29 20:46:32  DEBUG session id = gstrnd4gcpqb6eb5l6dh2pem01
+
+10-29 20:46:32  DEBUG prompt = 
+
+==============================================================================
+10-29 20:48:56  DEBUG Request: req[ ]
+Input: 
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509309992
+    [ops] => 5a86f734728960fecd234f422ba9426d
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:48:57  DEBUG Request: Array
+(
+    [username] => alice
+    [password] => wonderland
+    [persist] => on
+)
+
+Input: username=alice&password=wonderland&persist=on
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509309992
+    [ops] => 5a86f734728960fecd234f422ba9426d
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
+10-29 20:48:57  DEBUG Auth_time = 1509310137
+
+10-29 20:48:57  DEBUG session id = gstrnd4gcpqb6eb5l6dh2pem01
+
+10-29 20:48:57  DEBUG prompt = 
+
+==============================================================================
+10-29 20:53:35  DEBUG Request: Array
+(
+    [state] => 54f6bb84c3e5e9703775e19bd593f43e
+    [redirect_uri] => http://connect.dev.publicityport.com/phpRp/index.php/callback
+    [response_type] => code
+    [client_id] => client_id_1
+    [nonce] => 005c3eb9ae347e16cb2b417bd61b2286
+    [scope] => openid profile email address phone 
+    [code_challenge_method] => S256
+    [code_challenge] => ssNlTeKjgszedDHvcyY3TBRfz2XeTKTdJcgIeAI863Q
+    [page] => popup
+    [prompt] => login
+    [claims] => {"id_token":{"name":null}}
+)
+
+Input: 
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509310137
+    [ops] => ba56fe5985284c3f0d2d5664f5d1f991
+)
+ 
+{"url":"/phpOp/index.php/login?state=54f6bb84c3e5e9703775e19bd593f43e&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=005c3eb9ae347e16cb2b417bd61b2286&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=ssNlTeKjgszedDHvcyY3TBRfz2XeTKTdJcgIeAI863Q&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:53:36  DEBUG Request: Array
+(
+    [username] => alice
+    [password] => wonderland
+    [persist] => on
+)
+
+Input: username=alice&password=wonderland&persist=on
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509310137
+    [ops] => ba56fe5985284c3f0d2d5664f5d1f991
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login?state=54f6bb84c3e5e9703775e19bd593f43e&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=005c3eb9ae347e16cb2b417bd61b2286&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=ssNlTeKjgszedDHvcyY3TBRfz2XeTKTdJcgIeAI863Q&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D"} []
+----------------------------------------------------------
+
+10-29 20:53:36  DEBUG Auth_time = 1509310416
+
+10-29 20:53:36  DEBUG session id = gstrnd4gcpqb6eb5l6dh2pem01
+
+10-29 20:53:36  DEBUG prompt = 
+
+10-29 20:53:36  DEBUG get_userinfo_claims  scopes = 
+
+10-29 20:53:36  DEBUG userinfo claims = Array
+(
+)
+
+
+10-29 20:53:36  DEBUG id_token claims = Array
+(
+)
+
+
+10-29 20:53:36  DEBUG unique keys = Array
+(
+)
+
+
+10-29 20:53:36  DEBUG requested_claims = Array
+(
+)
+
+
+10-29 20:53:36  INFO requested claims = Array
+(
+)
+
+
+==============================================================================
+10-29 20:54:34  DEBUG Request: Array
+(
+    [state] => 54f6bb84c3e5e9703775e19bd593f43e
+    [redirect_uri] => http://connect.dev.publicityport.com/phpRp/index.php/callback
+    [response_type] => code
+    [client_id] => client_id_1
+    [nonce] => 005c3eb9ae347e16cb2b417bd61b2286
+    [scope] => openid profile email address phone 
+    [code_challenge_method] => S256
+    [code_challenge] => ssNlTeKjgszedDHvcyY3TBRfz2XeTKTdJcgIeAI863Q
+    [page] => popup
+    [prompt] => login
+    [claims] => {"id_token":{"name":null}}
+)
+
+Input: 
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509310416
+    [ops] => 7032ce10c18a3040334f8f05cb1487d7
+)
+ 
+{"url":"/phpOp/index.php/login?state=54f6bb84c3e5e9703775e19bd593f43e&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=005c3eb9ae347e16cb2b417bd61b2286&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=ssNlTeKjgszedDHvcyY3TBRfz2XeTKTdJcgIeAI863Q&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"NULL"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:54:35  DEBUG Request: Array
+(
+    [username] => alice
+    [password] => wonderland
+    [persist] => on
+)
+
+Input: username=alice&password=wonderland&persist=on
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509310416
+    [ops] => 7032ce10c18a3040334f8f05cb1487d7
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login?state=54f6bb84c3e5e9703775e19bd593f43e&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=005c3eb9ae347e16cb2b417bd61b2286&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=ssNlTeKjgszedDHvcyY3TBRfz2XeTKTdJcgIeAI863Q&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D"} []
+----------------------------------------------------------
+
+10-29 20:54:35  DEBUG Auth_time = 1509310475
+
+10-29 20:54:35  DEBUG session id = gstrnd4gcpqb6eb5l6dh2pem01
+
+10-29 20:54:35  DEBUG prompt = 
+
+10-29 20:54:35  DEBUG get_userinfo_claims  scopes = 
+
+10-29 20:54:35  DEBUG userinfo claims = Array
+(
+)
+
+
+10-29 20:54:35  DEBUG id_token claims = Array
+(
+)
+
+
+10-29 20:54:35  DEBUG unique keys = Array
+(
+)
+
+
+10-29 20:54:35  DEBUG requested_claims = Array
+(
+)
+
+
+10-29 20:54:35  INFO requested claims = Array
+(
+)
+
+
+==============================================================================
+10-29 20:54:49  DEBUG Request: Array
+(
+    [state] => a0d820fc040bd2783a8126cc034c65d9
+    [redirect_uri] => http://connect.dev.publicityport.com/phpRp/index.php/callback
+    [response_type] => code
+    [client_id] => client_id_1
+    [nonce] => ecc913a3c9b6e91682b86756c2cebeff
+    [scope] => openid profile email address phone 
+    [code_challenge_method] => S256
+    [code_challenge] => MTOCW28sM3yq6ssW6CDCQ6f7XoPb8o-GCbsTcMzRw2o
+    [page] => popup
+    [prompt] => login
+    [claims] => {"id_token":{"name":null}}
+)
+
+Input: 
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509310475
+    [ops] => 8daacc21ae065edfd9d606323e337a65
+)
+ 
+{"url":"/phpOp/index.php/login?state=a0d820fc040bd2783a8126cc034c65d9&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=ecc913a3c9b6e91682b86756c2cebeff&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=MTOCW28sM3yq6ssW6CDCQ6f7XoPb8o-GCbsTcMzRw2o&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpRp/"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:54:52  DEBUG Request: Array
+(
+    [username] => alice
+    [password] => wonderland
+    [persist] => on
+)
+
+Input: username=alice&password=wonderland&persist=on
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509310475
+    [ops] => 8daacc21ae065edfd9d606323e337a65
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login?state=a0d820fc040bd2783a8126cc034c65d9&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=ecc913a3c9b6e91682b86756c2cebeff&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=MTOCW28sM3yq6ssW6CDCQ6f7XoPb8o-GCbsTcMzRw2o&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D"} []
+----------------------------------------------------------
+
+10-29 20:54:52  DEBUG Auth_time = 1509310492
+
+10-29 20:54:52  DEBUG session id = gstrnd4gcpqb6eb5l6dh2pem01
+
+10-29 20:54:52  DEBUG prompt = 
+
+10-29 20:54:52  DEBUG get_userinfo_claims  scopes = 
+
+10-29 20:54:52  DEBUG userinfo claims = Array
+(
+)
+
+
+10-29 20:54:52  DEBUG id_token claims = Array
+(
+)
+
+
+10-29 20:54:52  DEBUG unique keys = Array
+(
+)
+
+
+10-29 20:54:52  DEBUG requested_claims = Array
+(
+)
+
+
+10-29 20:54:52  INFO requested claims = Array
+(
+)
+
+
+==============================================================================
+10-29 20:54:59  DEBUG Request: Array
+(
+    [mode] => ax_confirm
+    [agreed] => 1
+    [trust] => once
+    [confirm] => confirmed
+)
+
+Input: mode=ax_confirm&agreed=1&trust=once&confirm=confirmed
+Session:Array
+(
+    [login] => 1
+    [username] => alice
+    [persist] => on
+    [auth_time] => 1509310492
+    [ops] => 4a274754c92c2b7c6867cc88560f007a
+)
+ 
+{"url":"/phpOp/index.php/confirm_userinfo","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
+10-29 20:54:59  DEBUG get_userinfo_claims Array
+(
+    [session_id] => gstrnd4gcpqb6eb5l6dh2pem01
+    [auth_time] => 1509310492
+)
+ scopes = 
+
+10-29 20:54:59  DEBUG userinfo claims = Array
+(
+)
+
+
+10-29 20:54:59  DEBUG id_token claims = Array
+(
+)
+
+
+10-29 20:54:59  DEBUG unique keys = Array
+(
+)
+
+
+10-29 20:54:59  DEBUG requested_claims = Array
+(
+)
+
+
+10-29 20:54:59  DEBUG ss = sha256(://4a274754c92c2b7c6867cc88560f007a20ae9b91e479fec6caa069ede9b78400).20ae9b91e479fec6caa069ede9b78400
+
+10-29 20:54:59  DEBUG URL =  params = Array
+(
+    [session_state] => 4971fe4c6c8b4e3581212e6049ca004c7c440ed099fcbe86c0a77bc07e34c0ce.20ae9b91e479fec6caa069ede9b78400
+)
+ mode = query
+
+10-29 20:54:59  DEBUG redirect to ?session_state=4971fe4c6c8b4e3581212e6049ca004c7c440ed099fcbe86c0a77bc07e34c0ce.20ae9b91e479fec6caa069ede9b78400
+
+==============================================================================
+10-29 20:54:59  DEBUG Request: Array
+(
+    [session_state] => 4971fe4c6c8b4e3581212e6049ca004c7c440ed099fcbe86c0a77bc07e34c0ce.20ae9b91e479fec6caa069ede9b78400
+)
+
+Input: 
+Session:Array
+(
+    [auth_time] => 1509310492
+    [lastlogin] => 1509310499
+    [username] => alice
+    [ops] => 4a274754c92c2b7c6867cc88560f007a
+    [login] => 1
+    [persist] => on
+)
+ 
+{"url":"/phpOp/index.php/confirm_userinfo?session_state=4971fe4c6c8b4e3581212e6049ca004c7c440ed099fcbe86c0a77bc07e34c0ce.20ae9b91e479fec6caa069ede9b78400","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
+10-29 20:54:59  ERROR handle_auth exception : #0 C:\wamp64\www\openid-connect\phpOp\index.php(1569): send_response('alice', false)
+#1 C:\wamp64\www\openid-connect\phpOp\index.php(84): handle_confirm_userinfo()
+#2 {main}
+
+10-29 20:54:59  ERROR url:http://connect.dev.publicityport.com/phpOp/index.php error:access_denied desc:User denied access uri: state: code:400
+
+==============================================================================
+10-29 20:54:59  DEBUG Request: Array
+(
+    [error] => access_denied
+    [error_description] => User denied access
+)
+
+Input: 
+Session:Array
+(
+    [auth_time] => 1509310492
+    [lastlogin] => 1509310499
+    [username] => alice
+    [ops] => 4a274754c92c2b7c6867cc88560f007a
+    [login] => 1
+    [persist] => on
+)
+ 
+{"url":"/phpOp/index.php?error=access_denied&error_description=User+denied+access","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:55:09  DEBUG Request: Array
+(
+    [state] => a0d820fc040bd2783a8126cc034c65d9
+    [redirect_uri] => http://connect.dev.publicityport.com/phpRp/index.php/callback
+    [response_type] => code
+    [client_id] => client_id_1
+    [nonce] => ecc913a3c9b6e91682b86756c2cebeff
+    [scope] => openid profile email address phone 
+    [code_challenge_method] => S256
+    [code_challenge] => MTOCW28sM3yq6ssW6CDCQ6f7XoPb8o-GCbsTcMzRw2o
+    [page] => popup
+    [prompt] => login
+    [claims] => {"id_token":{"name":null}}
+)
+
+Input: 
+Session:Array
+(
+    [auth_time] => 1509310492
+    [lastlogin] => 1509310499
+    [username] => alice
+    [ops] => 4a274754c92c2b7c6867cc88560f007a
+    [login] => 1
+    [persist] => on
+)
+ 
+{"url":"/phpOp/index.php/login?state=a0d820fc040bd2783a8126cc034c65d9&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=ecc913a3c9b6e91682b86756c2cebeff&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=MTOCW28sM3yq6ssW6CDCQ6f7XoPb8o-GCbsTcMzRw2o&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpRp/"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:55:23  DEBUG Request: Array
+(
+    [state] => 605372c0c1d168b4bf3b950fe9d141bc
+    [redirect_uri] => http://connect.dev.publicityport.com/phpRp/index.php/callback
+    [response_type] => code
+    [client_id] => client_id_1
+    [nonce] => 3a63dceed64b112fa9e6a9a61611138d
+    [scope] => openid profile email address phone 
+    [code_challenge_method] => S256
+    [code_challenge] => lRK2yl19tbknd6RWL5Hou5Tk8Y3lZiFaCe0_fGaxtpk
+    [page] => popup
+    [prompt] => login
+    [claims] => {"id_token":{"name":null}}
+)
+
+Input: 
+Session:Array
+(
+    [auth_time] => 1509310492
+    [lastlogin] => 1509310499
+    [username] => alice
+    [ops] => 4a274754c92c2b7c6867cc88560f007a
+    [login] => 1
+    [persist] => on
+)
+ 
+{"url":"/phpOp/index.php/login?state=605372c0c1d168b4bf3b950fe9d141bc&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=3a63dceed64b112fa9e6a9a61611138d&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=lRK2yl19tbknd6RWL5Hou5Tk8Y3lZiFaCe0_fGaxtpk&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpRp/"} []
+----------------------------------------------------------
+
+==============================================================================
+10-29 20:55:45  DEBUG Request: Array
+(
+    [username] => alice
+    [password] => wonderland
+    [persist] => on
+)
+
+Input: username=alice&password=wonderland&persist=on
+Session:Array
+(
+    [auth_time] => 1509310492
+    [lastlogin] => 1509310499
+    [username] => alice
+    [ops] => 4a274754c92c2b7c6867cc88560f007a
+    [login] => 1
+    [persist] => on
+)
+ 
+{"url":"/phpOp/index.php/login","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login?state=605372c0c1d168b4bf3b950fe9d141bc&redirect_uri=http%3A%2F%2Fconnect.dev.publicityport.com%2FphpRp%2Findex.php%2Fcallback&response_type=code&client_id=client_id_1&nonce=3a63dceed64b112fa9e6a9a61611138d&scope=openid+profile+email+address+phone+&code_challenge_method=S256&code_challenge=lRK2yl19tbknd6RWL5Hou5Tk8Y3lZiFaCe0_fGaxtpk&page=popup&prompt=login&claims=%7B%22id_token%22%3A%7B%22name%22%3Anull%7D%7D"} []
+----------------------------------------------------------
+
+10-29 20:55:45  DEBUG Auth_time = 1509310545
+
+10-29 20:55:45  DEBUG session id = gstrnd4gcpqb6eb5l6dh2pem01
+
+10-29 20:55:45  DEBUG prompt = 
+
+10-29 20:55:45  DEBUG get_userinfo_claims  scopes = 
+
+10-29 20:55:45  DEBUG userinfo claims = Array
+(
+)
+
+
+10-29 20:55:45  DEBUG id_token claims = Array
+(
+)
+
+
+10-29 20:55:45  DEBUG unique keys = Array
+(
+)
+
+
+10-29 20:55:45  DEBUG requested_claims = Array
+(
+)
+
+
+10-29 20:55:45  INFO requested claims = Array
+(
+)
+
+
+==============================================================================
+10-29 20:56:07  DEBUG Request: Array
+(
+    [mode] => ax_confirm
+    [agreed] => 1
+    [trust] => always
+    [confirm] => confirmed
+)
+
+Input: mode=ax_confirm&agreed=1&trust=always&confirm=confirmed
+Session:Array
+(
+    [auth_time] => 1509310545
+    [lastlogin] => 1509310499
+    [username] => alice
+    [ops] => 28072a08dce58023c1fcf8ed9aab8a7d
+    [login] => 1
+    [persist] => on
+)
+ 
+{"url":"/phpOp/index.php/confirm_userinfo","ip":"127.0.0.1","http_method":"POST","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
+10-29 20:56:07  DEBUG Trust = Always for 
+
+10-29 20:56:07  DEBUG get_userinfo_claims Array
+(
+    [session_id] => gstrnd4gcpqb6eb5l6dh2pem01
+    [auth_time] => 1509310545
+)
+ scopes = 
+
+10-29 20:56:07  DEBUG userinfo claims = Array
+(
+)
+
+
+10-29 20:56:07  DEBUG id_token claims = Array
+(
+)
+
+
+10-29 20:56:07  DEBUG unique keys = Array
+(
+)
+
+
+10-29 20:56:07  DEBUG requested_claims = Array
+(
+)
+
+
+10-29 20:56:07  DEBUG ss = sha256(://28072a08dce58023c1fcf8ed9aab8a7dc2060e446c550dcfb1c2681863b21ac9).c2060e446c550dcfb1c2681863b21ac9
+
+10-29 20:56:07  DEBUG URL =  params = Array
+(
+    [session_state] => 9eca022ccc6b4885e19769dce2d33eb61cd2f095239b67221b93dcf935f464aa.c2060e446c550dcfb1c2681863b21ac9
+)
+ mode = query
+
+10-29 20:56:07  DEBUG redirect to ?session_state=9eca022ccc6b4885e19769dce2d33eb61cd2f095239b67221b93dcf935f464aa.c2060e446c550dcfb1c2681863b21ac9
+
+==============================================================================
+10-29 20:56:07  DEBUG Request: Array
+(
+    [session_state] => 9eca022ccc6b4885e19769dce2d33eb61cd2f095239b67221b93dcf935f464aa.c2060e446c550dcfb1c2681863b21ac9
+)
+
+Input: 
+Session:Array
+(
+    [auth_time] => 1509310545
+    [lastlogin] => 1509310567
+    [username] => alice
+    [ops] => 28072a08dce58023c1fcf8ed9aab8a7d
+    [login] => 1
+    [persist] => on
+)
+ 
+{"url":"/phpOp/index.php/confirm_userinfo?session_state=9eca022ccc6b4885e19769dce2d33eb61cd2f095239b67221b93dcf935f464aa.c2060e446c550dcfb1c2681863b21ac9","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
+10-29 20:56:07  ERROR handle_auth exception : #0 C:\wamp64\www\openid-connect\phpOp\index.php(1569): send_response('alice', false)
+#1 C:\wamp64\www\openid-connect\phpOp\index.php(84): handle_confirm_userinfo()
+#2 {main}
+
+10-29 20:56:07  ERROR url:http://connect.dev.publicityport.com/phpOp/index.php error:access_denied desc:User denied access uri: state: code:400
+
+==============================================================================
+10-29 20:56:07  DEBUG Request: Array
+(
+    [error] => access_denied
+    [error_description] => User denied access
+)
+
+Input: 
+Session:Array
+(
+    [auth_time] => 1509310545
+    [lastlogin] => 1509310567
+    [username] => alice
+    [ops] => 28072a08dce58023c1fcf8ed9aab8a7d
+    [login] => 1
+    [persist] => on
+)
+ 
+{"url":"/phpOp/index.php?error=access_denied&error_description=User+denied+access","ip":"127.0.0.1","http_method":"GET","server":"connect.dev.publicityport.com","referrer":"http://connect.dev.publicityport.com/phpOp/index.php/login"} []
+----------------------------------------------------------
+
