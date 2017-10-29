@@ -14,10 +14,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-$path_extra = "C:/wamp64/bin/php/php7.0.10/pear/";
-$path = ini_get('include_path');
-$path = $path_extra . PATH_SEPARATOR . $path;
-ini_set('include_path', $path);
 
 include_once("abconstants.php");
 include_once("libjsoncrypto.php");

@@ -18,8 +18,8 @@ PHP modules can be installed using the phpOp/checkDependencies.sh script
 or the 'pear' command
 
   * MDB2 and MDB2_Driver_mysql
-    > pear install MDB2
-    > pear install MDB2_Driver_mysql
+    > pear install MDB2-2.5.0b5
+    > pear upgrade MDB2_Driver_Mysql-beta
 
   * Doctrine ORM 1.2.4
     > pear channel-discover pear.doctrine-project.org
